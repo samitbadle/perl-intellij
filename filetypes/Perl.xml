@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filetype binary="false" default_extension="" description="Perl files" name="Perl">
+  <highlighting>
+    <options>
+      <option name="LINE_COMMENT" value="#" />
+      <option name="COMMENT_START" value="" />
+      <option name="COMMENT_END" value="" />
+      <option name="HEX_PREFIX" value="0x" />
+      <option name="NUM_POSTFIXES" value="" />
+      <option name="HAS_BRACES" value="true" />
+      <option name="HAS_BRACKETS" value="true" />
+      <option name="HAS_PARENS" value="true" />
+      <option name="HAS_STRING_ESCAPES" value="true" />
+    </options>
+    <keywords keywords="AUTOLOAD;BEGIN;CHECK;DESTROY;END;INIT;UNITCHECK;__DATA__;__END__;__FILE__;__LINE__;__PACKAGE__;__SUB__;and;bless;caller;cmp;continue;die;do;dump;else;elsif;eq;eval;exec;exit;for;foreach;ge;goto;gt;if;import;last;le;local;lt;my;ne;next;no;not;or;our;package;qq;qr;qw;qx;redo;ref;require;return;state;sub;tie;tied;unless;untie;until;use;wantarray;warn;while;xor" ignore_case="false" />
+    <keywords2 keywords="abs;accept;atan2;bind;binmode;caller;chdir;chmod;chomp;chop;chown;chr;chroot;close;closedir;connect;cos;defined;delete;each;eof;exists;exp;fcntl;fileno;flock;fork;getc;getlogin;getnetbyaddr;getpeername;getpgrp;getppid;getsockname;getsockopt;glob;gmtime;grep;hex;index;int;ioctl;join;keys;kill;lc;lcfirst;length;link;listen;localtime;lock;log;lstat;map;mkdir;next;oct;open;opendir;ord;pack;pipe;pop;pos;print;printf;prototype;push;rand;read;readdir;readline;readlink;readpipe;recv;redo;rename;reset;reverse;rewinddir;rindex;rmdir;say;scalar;seek;seekdir;select;send;setsockopt;shift;shutdown;sin;sleep;socket;socketpair;sort;splice;split;sprintf;sqrt;srand;stat;study;substr;symlink;syscall;sysopen;sysread;sysseek;system;syswrite;tell;telldir;time;times;tr;truncate;uc;ucfirst;umask;undef;unlink;unpack;unshift;utime;values;vec;warn" />
+    <keywords3 keywords="!;!=;!~;&amp;;&amp;&amp;;*;*=;+;++;+=;,;-;--;-=;-&gt;;.;..;.=;//;:;&lt;;&lt;&lt;;&lt;=;&lt;=&gt;;=;==;=&gt;;=~;&gt;;&gt;=;?;^;x;|;||">
+      <keyword name=";" />
+    </keywords3>
+    <keywords4 keywords="=back;=begin;=cut;=encoding;=end;=for;=head1;=head2;=head3;=head4;=item;=over;=pod" />
+  </highlighting>
+  <extensionMap>
+    <mapping ext="pm" />
+    <mapping ext="pl" />
+    <mapping ext="t" />
+    <mapping ext="comp" />
+  </extensionMap>
+</filetype>
+
